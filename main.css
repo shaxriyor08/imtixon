@@ -1,0 +1,238 @@
+body{
+    background-color: #000;
+}
+.box {
+    width: 1400px;
+    height: 900px;
+    background-image: url(../Images/02_Desktop\ 1.jpg);
+    background-position: center;
+    margin: 0 auto;
+}
+
+.box>img {
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+h2 {
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 155px;
+}
+
+.row {
+    width: 200px;
+    height: 50px;
+    border: 4px solid white;
+    margin-top: 450px;
+    margin-left: 600px;
+}
+
+.row>h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+/* .for {
+    width: 1400px;
+    height: 5000px;
+    margin-top: 110px;
+    background-color: black;
+} */
+
+.for>h1 {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    top: 200px;
+    left: 135px;
+}
+
+.row:hover {
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 5px;
+    transition: 1.5s;
+}
+
+.got>h2 {
+    width: 528px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    top: -100px;
+    left: 135px;
+}
+
+.got>img {
+    width: 600px;
+    height: 336px;
+    position: relative;
+    top: -100px;
+    left: 700px;
+}
+
+
+.tesla>img {
+    width: 600px;
+    height: 336px;
+    flex-shrink: 0;
+    position: relative;
+    top: -900px;
+    left: 100px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.tesla>h1 {
+    width: 528px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    top: -815px;
+    left: 800px;
+}
+
+.tesla>h2 {
+    width: 528px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    top: -1150px;
+    left: 800px;
+}
+
+.hot>h1 {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    top: -800px;
+    left: 100px;
+}
+
+.hot>h2 {
+    width: 972px;
+    color: blue;
+    font-family: Manrope;
+    font-sw20px;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    top: -790px;
+    left: 100px;
+}
+
+.hot>img {
+    width: 1170px;
+    height: 638px;
+    flex-shrink: 0;
+    position: relative;
+    top: -790px;
+    left: 100px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.work>h1 {
+    color:w;
+    font-family: Manrope;
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    top: -600px;
+    left: 100px;
+}
+
+.work>h2 {
+    width: 972px;
+    color:w;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    top: -600px;
+    left: 100px;
+}
+
+.work>img {
+    width: 1170px;
+    height: 636px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    position: relative;
+    top: -600px;
+    left: 100px;
+}
+
+.jorge>h1 {
+    color:w;
+    font-family: Manrope;
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    top: -400px;
+    left: 100px;
+}
+
+.jorge>h2 {
+    width: 972px;
+    color:w;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    top: -400px;
+    left: 100px;
+}
+
+.jorge>img {
+    width: 1170px;
+    height: 600px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+    position: relative;
+    top: -400px;
+    left: 100px;
+}
+
+.old>img {
+    width: 657px;
+    height: 373px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    position: relative;
+    top: -200px;
+    left: 350px;
+}
+
+.kit>img {
+    width: 897px;
+    height: 280px;
+    /* flex-shrink: 0; */
+    opacity: 0.5;
+    position: relative;
+    top: -577px;
+    left: 350px;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
